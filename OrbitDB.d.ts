@@ -21,6 +21,7 @@ declare module 'orbit-db' {
         stores: any;
         directory: string;
         keystore: Keystore;
+        identity: Identity;
         
         // For OpenTelemetry Plugin
         span?: any;
