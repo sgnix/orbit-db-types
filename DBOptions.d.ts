@@ -67,7 +67,8 @@ interface IOpenOptions {
 }
 
 interface IStoreOptions extends ICreateOptions, IOpenOptions {
-    Index?: any
+    Index?: any;
+    indexBy?: string;
 }
 
 // c.f. https://github.com/orbitdb/orbit-db/blob/master/API.md#orbitdbdatabasetypes
